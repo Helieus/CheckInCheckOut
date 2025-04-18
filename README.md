@@ -3,7 +3,7 @@
 ![GPL-2.0 License](https://img.shields.io/badge/license-GPL--2.0-blue)
 
 ## Introduction
-Welcome to the **Check In / Check Out System**, an open-source educational software crafted for the distinguished [Course Name] at [Institution]. This repository exemplifies the elegance and simplicity of a full-stack web application utilizing **MongoDB**, **Express**, and **Node.js**—commonly referred to as the MEN stack. Whether you are a student, educator, or enthusiast, this project offers a comprehensive, hands-on demonstration of user authentication, session management, and real-time attendance tracking.
+Welcome to the **Check In / Check Out System**, an open-source educational software crafted for the distinguished *course name private* at UoB. This repository exemplifies the elegance and simplicity of a full-stack web application utilizing **MongoDB**, **Express**, and **Node.js**—commonly referred to as the MEN stack. Whether you are a student, educator, or enthusiast, this project offers a comprehensive, hands-on demonstration of user authentication, session management, and real-time attendance tracking.
 
 Developed with clarity and pedagogical rigor, this system empowers employees to record their work hours through an intuitive web interface. Emphasizing minimalism and readability, the codebase is structured to aid learners in grasping best practices while fostering an environment of open collaboration.
 
