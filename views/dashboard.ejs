@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head><title>Dashboard</title></head>
+<body>
+  <h1>Dashboard</h1>
+
+  <!-- Flash message -->
+  <% if (message) { %>
+    <p style="color:green;"><%= message %></p>
+  <% } %>
+
+  <form method="POST" action="<%= openAttendance ? '/checkout' : '/checkin' %>">
+    <button type="submit">
+      <%= openAttendance ? 'Check Out' : 'Check In' %>
+    </button>
+  </form>
+
+  <% if (openAttendance) { %>
+    <p>Checked in at: <%= openAttendance.checkIn.toLocaleString() %></p>
+  <% } %>
+
+  <a href="/history">View History</a> |
+  <a href="/logout">Logout</a>
+</body>
+</html>

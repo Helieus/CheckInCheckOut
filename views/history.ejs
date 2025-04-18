@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head><title>History</title></head>
+<body>
+  <h1>Attendance History</h1>
+  <table border="1">
+    <tr><th>Check In</th><th>Check Out</th></tr>
+    <% history.forEach(h => { %>
+      <tr>
+        <td><%= h.checkIn.toLocaleString() %></td>
+        <td><%= h.checkOut ? h.checkOut.toLocaleString() : '-' %></td>
+      </tr>
+    <% }) %>
+  </table>
+  <a href="/dashboard">Back to Dashboard</a>
+</body>
+</html>
