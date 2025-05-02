@@ -18,8 +18,8 @@ Developed with clarity and pedagogical rigor, this system empowers employees to 
 ## Installation & Setup
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/checkin-checkout-system.git
-   cd checkin-checkout-system
+   git clone https://github.com/Helieus/CheckInCheckOut.git
+   cd CheckInCheckOut
    ```
 
 2. **Install Dependencies**
@@ -28,12 +28,12 @@ Developed with clarity and pedagogical rigor, this system empowers employees to 
    ```
 
 3. **Configuration**
-   - Open `server.js` and locate the `MONGO_URI` and `SESSION_SECRET` constants.
+   - Open `index.js` and locate the `MONGO_URI` and `SESSION_SECRET` constants.
    - Replace with your own MongoDB Atlas URI and a strong session secret string.
 
 4. **Run the Application**
    ```bash
-   node server.js
+   node index.js
    ```
    Navigate to `http://localhost:3000` in your preferred web browser.
 
@@ -50,7 +50,7 @@ Developed with clarity and pedagogical rigor, this system empowers employees to 
 5. **Logout:** Securely end your session and return to the login screen.
 
 ## Course Context
-This system was conceived as part of **[Course Title]** during the [Term/Year] academic term at **[Institution Name]**. It is intended as a didactic tool to illustrate:
+This system was conceived as part of Open Source Development course during the year 2025 academic term. It is intended as a didactic tool to illustrate:
 - RESTful routing and HTTP methods
 - MVC architecture in a Node.js environment
 - Basic session handling and data persistence
