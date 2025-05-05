@@ -14,8 +14,8 @@ const app = express();
 // ——— MONGODB ———
 const MONGO_URI      = 'mongodb+srv://ikaranasios:NL8tc9p1XIzUEk2v@cluster0.mzjtkxu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
 const SESSION_SECRET = 'mySuperSecretString';
-//Test 2
-
+//Test
+//Test2
 mongoose.connect(MONGO_URI, {
   useNewUrlParser: true,
   useUnifiedTopology: true
